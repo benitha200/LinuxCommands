@@ -7,101 +7,101 @@ This project contains a Bash script (info.sh) that gathers and displays essentia
 
 The script provides detailed information under the following sections:
 
-    System Information
+ System Information
 
-        Hostname
+   Hostname
 
-        Current user
+   Current user
 
-        System uptime
+   System uptime
 
-        Current date and time
+   Current date and time
 
-    CPU and Memory
+   CPU and Memory
 
-        Number of CPUs/cores
+   Number of CPUs/cores
 
-        CPU model
+   CPU model
 
-        Total and free RAM
+   Total and free RAM
 
-    Disk & Filesystem
+   Disk & Filesystem
 
-        Overall disk usage
+   Overall disk usage
 
-        Mounted filesystems
+   Mounted filesystems
 
-        Disk usage for /home and /var
+   Disk usage for /home and /var
 
-    Networking
+ Networking
 
-        IP addresses
+   IP addresses
 
-        Active network interfaces
+   Active network interfaces
 
-        Top 5 processes by memory and CPU
+   Top 5 processes by memory and CPU
 
-    Bonus Features
+  Other Features
 
-        Colored terminal output for better readability (using ANSI escape codes)
+   Colored terminal output for better readability (using ANSI escape codes)
 
-        Optionally generates an HTML and a text report of the output
+   Optionally generates an HTML and a text report of the output
 
  Files Included
 
-    info.sh – The Bash script.
+ info.sh – The Bash script.
 
-    system_report.txt – Text-based report output.
+ system_report.txt – Text-based report output.
 
-    system_report.html – HTML-formatted version of the report.
+ system_report.html – HTML-formatted version of the report.
 
-    README.md – This documentation file.
+ README.md – This documentation file.
 
  How to Run
 
-    Make the script executable:
+ Make the script executable:
 
-chmod +x info.sh
+    chmod +x info.sh
 
 Run the script:
 
     ./info.sh
 
-    View output:
+ View output:
 
-        Terminal (colored)
+   Terminal (colored)
 
-        system_report.txt (plain text)
+   system_report.txt (plain text)
 
-        system_report.html (open in any browser)
+   system_report.html (open in any browser)
 
 
 Commands I Learned
 
 Here are a few important Linux commands and tools I practiced:
 
-    nproc – shows the number of processing cores.
+  nproc – shows the number of processing cores.
 
-    free -h – displays system memory in a human-readable format.
+  free -h – displays system memory in a human-readable format.
 
-    ps -eo pid,comm,%cpu,%mem --sort=-%mem | head -n 6 – lists top processes by memory usage.
+  ps -eo pid,comm,%cpu,%mem --sort=-%mem | head -n 6 – lists top processes by memory usage.
 
-    ip a and ip link show – show IP addresses and network interfaces.
+  ip a and ip link show – show IP addresses and network interfaces.
 
-    df -h, du -sh – used for disk usage reporting.
+  df -h, du -sh – used for disk usage reporting.
 
-    awk, grep, cut, sed – text processing tools used to extract data.
+  awk, grep, cut, sed – text processing tools used to extract data.
 
- Learning Goals
+Learning Goals
 
 This project helped reinforce:
 
-    Bash scripting basics
+   Bash scripting basics
 
-    System monitoring using CLI tools
+   System monitoring using CLI tools
 
-    File redirection, permissions, and output formatting
+   File redirection, permissions, and output formatting
 
-    Creating dynamic reports using Linux commands
+   Creating dynamic reports using Linux commands
 
-    Combining utilities for powerful automation
+   Combining utilities for powerful automation
